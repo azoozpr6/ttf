@@ -1,0 +1,29 @@
+@media(max-width:1039px){
+    body{
+        font-size: 15px;
+    }
+    nav{
+        display:flex;
+        flex-direction: column;
+        min-height: 130px;
+    }
+}
+@media(max-width:440px){
+    #button{
+        padding: 4vh 5vh 4vh;
+    }
+     
+
+}
+@media(max-width:404px){
+    nav{
+        flex-direction: column;
+        min-height: 160px;
+    }
+    ul li {
+        display: inline-block;
+        
+        padding: 10px 5px 10px;
+    }
+
+}
